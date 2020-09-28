@@ -23,3 +23,7 @@ print(Comments)
 """
 print(description.format("Bob", 30))
 
+age = int(input(f"Enter your age:"))
+can_drive = age >= 18 and age < 115
+print(f"You can drive{can_drive}")
+
